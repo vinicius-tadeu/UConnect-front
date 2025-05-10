@@ -27,7 +27,7 @@ export default function Home() {
           <Button onClick={() => router.push('/select-user-type')} className="w-32">
             Login
           </Button>
-          <Button bgColor="bg-gray-500" textColor="text-white" className="w-32">
+          <Button onClick={() => router.push('/register')} bgColor="bg-gray-500" textColor="text-white" className="w-32">
             Cadastro
           </Button>
         </div>
